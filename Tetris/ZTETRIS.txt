@@ -4,7 +4,7 @@ If B=1
 Then
 If R=1 or R=3
 Then
-If pxl-Test(59-H,G)+pxl-Test(65-H,G)+pxl-Test(68-H,G)=0
+If pxl-Test(59-H,G)+pxl-Test(65-H,G)+pxl-Test(68-H-3(H=3),G)=0
 {1,6,­6,3,­3,­3,3}→L₃
 Else
 If pxl-Test(62-H,G-6)+pxl-Test(62-H,G-3)+pxl-Test(62-H,G+3)=0
